@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.body {
+  width: 100vw;
+  height: 100vh;
+  background-color: darkblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.p,
+.reiniciar,
+.input {
+  border-radius: 0.3em;
+  margin: 3em;
+  /* box-shadow: 0 0 0.5em #fff; */
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -ms-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+}
+
+.vidas,
+.h1,
+.h2,
+.label,
+.mensaje {
+  color: #fff;
+  text-shadow: 0 0 0.3em #fff;
+  text-align: center;
+}
+
+.seleccionar{
+  cursor: pointer;
+}

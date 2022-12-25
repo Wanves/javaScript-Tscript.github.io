@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="mokepon.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Mokepon</title>
+    <script src="/10/mokepon/js/mokepon.js"></script>
+</head>
+<body class="body">
+
+<!-- -------------------------------------------- -->
+<!-- mascotas -->
+    <h1 class="h1">Mokepon! 🔥💧🌱</h1>
+    <section id="seleccionar-mascota">
+        <h2 class="h2">Elige tu mascota</h2>
+
+        <label class="label" for="hipodoge">Hipodoge</label>
+        <input class="input" type="radio" id="hipodoge" name="mascota"/>
+
+        <label class="label" for="capipepo">Capipepo</label>
+        <input class="input" type="radio" id="capipepo" name="mascota"/>
+        
+        <label class="label" for="ratigueya">Ratigueya</label>
+        <input class="input" type="radio" id="ratigueya"name="mascota"/>
+        
+        <button class="seleccionar" id="boton-mascota">Seleccionar</button>
+    </section>
+
+<!-- -------------------------------------------- -->
+<!-- ataques -->
+    <section class= section id="seleccinar-ataque">
+        <h2 class="h2">Elige tu ataque</h2>
+
+        <p class="vidas" id="vidas">Tu mascota <span id="mascota-jugador"></span> tiene <span>3</span> vidas</p>
+        <p class="vidas" id="vidas">La mascota <span id="mascota-enemigo"></span> del enemigo tiene <span>3</span> vidas</p>
+
+        <p class="p" id="#">
+            <button class="boton" id="boton-fuego">Fuego 🔥</button>
+            <button class="boton" id="boton-agua">Agua 💧</button>
+            <button class="boton"id="boton-tierra">Tierra 🌱</button>
+        </p>
+    </section>
+
+<!-- -------------------------------------------- -->
+<!-- mensajes -->
+    <section class="mensaje" id="mensajes">
+        <!-- <p>Tu mascota atacó con FUEGO, la mascota del enemigo atacó con TIERRA - GANASTE 🎉🎉🎉 -->
+        </p>
+    </section>
+
+<!-- -------------------------------------------- -->
+<!-- Reiniciar -->
+    <section class="reiniciar" id="reiniciar">
+        <button id="boton-reiniciar">Reiniciar</button>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- <script src="mokepon.js"></script> -->
+    
+</body>
+</html>
